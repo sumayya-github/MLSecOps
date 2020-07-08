@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-dataset=pd.read_csv("/workspace/httpdlog.csv")
+dataset=pd.read_csv("/root/mlt3/httpdlog.csv")
 dataset.head()
 dataset=dataset[['IP','Status']]
 dataset.head()
