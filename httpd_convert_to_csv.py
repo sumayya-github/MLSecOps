@@ -12,4 +12,4 @@ log_arr = np.array(logs)
 ip=log_arr[:,0]
 dataset = pd.DataFrame({'IP': log_arr[:, 0], 'A': log_arr[:, 1],'B':log_arr[:, 2],'Date&Time':log_arr[:, 3],'TZ':log_arr[:, 4],'C':log_arr[:, 5],'Site':log_arr[:, 6],'Protocol':log_arr[:, 7],'Status':log_arr[:, 8],'Length':log_arr[:, 9]})
 print(dataset.head())
-dataset.to_csv('securelog.csv')
+dataset.to_csv('httpdlog.csv')
